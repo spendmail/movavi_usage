@@ -1,0 +1,15 @@
+{
+    "name": "spendlively/movavi_usage",
+    "description": "Using of spendmail/movavi",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sizikov Konstantin",
+            "email": "spendlively@mail.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "spendmail/movavi": "dev-master"
+    }
+}

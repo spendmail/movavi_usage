@@ -1,0 +1,65 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "2ab0e262675135358b9ff52a4f2c1c43",
+    "packages": [
+        {
+            "name": "spendmail/movavi",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spendmail/movavi.git",
+                "reference": "f6c388753a926fe4b90471ce0738f2ccf5d81454"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spendmail/movavi/zipball/f6c388753a926fe4b90471ce0738f2ccf5d81454",
+                "reference": "f6c388753a926fe4b90471ce0738f2ccf5d81454",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "ext-simplexml": "*",
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^7.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Movavi\\": "src/",
+                    "MovaviTest\\": "tests/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sizikov Konstantin",
+                    "email": "spendlively@mail.ru"
+                }
+            ],
+            "description": "Movavi testing task",
+            "time": "2018-08-21T13:43:24+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "spendmail/movavi": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.0"
+    },
+    "platform-dev": []
+}
