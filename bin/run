@@ -1,0 +1,15 @@
+#!/usr/bin/env php
+<?php
+
+require "../vendor/autoload.php";
+
+use Application\Example;
+
+try{
+
+    $app = new Example();
+    $app->run();
+
+} catch (\Exception $e){
+    echo $e->getMessage() . PHP_EOL;
+}

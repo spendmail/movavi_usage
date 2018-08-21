@@ -11,5 +11,10 @@
     "require": {
         "php": ">=7.0",
         "spendmail/movavi": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Application\\": "src/"
+        }
     }
 }
