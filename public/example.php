@@ -31,7 +31,7 @@ $cbrService = $serviceFactory->createService(CbrService::NAME);
 
 /**
  * Getting average rates
- * (cbr.ru is working not good!!!)
+ * (cbr.ru is not always working!!!)
  *
  */
 //$usdRates = [];
