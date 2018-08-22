@@ -1,4 +1,4 @@
-# movavi_usage
+# Movavi_usage
 
 ### Example of usage spendmail/movavi library
 
@@ -9,5 +9,4 @@
 
 2. Run example
  + cd bin/
- + chmod a+x run
  + ./run

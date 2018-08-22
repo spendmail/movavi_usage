@@ -26,6 +26,7 @@ class Example
      * Starts examples
      *
      * @throws \Movavi\Exception\EmptyRateListException
+     * @throws \Movavi\Exception\NoneRateException
      * @throws \Movavi\Exception\UnknownServiceException
      * @throws \Movavi\Exception\WrongClassException
      */
