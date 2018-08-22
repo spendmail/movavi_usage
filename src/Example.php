@@ -56,7 +56,7 @@ class Example
         $eurRates[] = $rbcService->getEurToRubRate($date);
         $eurRates[] = $cbrService->getEurToRubRate($date);
 
-        $averageUsdRate = $averageRateBuilder->fromArray($eurRates);
-        printf("Average EUR rate: %s%s", $averageUsdRate->getRate(), $eol);
+        $averageEurRate = $averageRateBuilder->fromArray($eurRates);
+        printf("Average EUR rate: %s%s", $averageEurRate->getRate(), $eol);
     }
 }

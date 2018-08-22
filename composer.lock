@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/spendmail/movavi.git",
-                "reference": "cb1cb6d31657a87543e57effad080295b7c34a6b"
+                "reference": "fa5a997fc87ac4cbbd20c43ba73a3af779063191"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spendmail/movavi/zipball/cb1cb6d31657a87543e57effad080295b7c34a6b",
-                "reference": "cb1cb6d31657a87543e57effad080295b7c34a6b",
+                "url": "https://api.github.com/repos/spendmail/movavi/zipball/fa5a997fc87ac4cbbd20c43ba73a3af779063191",
+                "reference": "fa5a997fc87ac4cbbd20c43ba73a3af779063191",
                 "shasum": ""
             },
             "require": {
@@ -47,7 +47,7 @@
                 }
             ],
             "description": "Movavi testing task",
-            "time": "2018-08-22T02:14:23+00:00"
+            "time": "2018-08-22T04:52:24+00:00"
         }
     ],
     "packages-dev": [],
