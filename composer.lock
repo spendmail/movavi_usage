@@ -4,6 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
+    "hash": "b74808a849a17fc17d1f5ec935dada14",
     "content-hash": "2ab0e262675135358b9ff52a4f2c1c43",
     "packages": [
         {
@@ -12,12 +13,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/spendmail/movavi.git",
-                "reference": "f6c388753a926fe4b90471ce0738f2ccf5d81454"
+                "reference": "996f91d1323e46c0fdd3c0b8823aa4cdb5a9f500"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spendmail/movavi/zipball/f6c388753a926fe4b90471ce0738f2ccf5d81454",
-                "reference": "f6c388753a926fe4b90471ce0738f2ccf5d81454",
+                "url": "https://api.github.com/repos/spendmail/movavi/zipball/996f91d1323e46c0fdd3c0b8823aa4cdb5a9f500",
+                "reference": "996f91d1323e46c0fdd3c0b8823aa4cdb5a9f500",
                 "shasum": ""
             },
             "require": {
@@ -27,7 +28,7 @@
                 "php": ">=7.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^7.3"
+                "phpunit/phpunit": "6.*"
             },
             "type": "library",
             "autoload": {
@@ -47,7 +48,7 @@
                 }
             ],
             "description": "Movavi testing task",
-            "time": "2018-08-21T13:43:24+00:00"
+            "time": "2018-08-23 16:55:03"
         }
     ],
     "packages-dev": [],
