@@ -26,6 +26,7 @@ class Example
      * Starts examples
      *
      * @throws \Movavi\Exception\EmptyRateListException
+     * @throws \Movavi\Exception\NoneRateException
      * @throws \Movavi\Exception\UnknownServiceException
      * @throws \Movavi\Exception\WrongClassException
      */
@@ -56,7 +57,7 @@ class Example
         $eurRates[] = $rbcService->getEurToRubRate($date);
         $eurRates[] = $cbrService->getEurToRubRate($date);
 
-        $averageUsdRate = $averageRateBuilder->fromArray($eurRates);
-        printf("Average EUR rate: %s%s", $averageUsdRate->getRate(), $eol);
+        $averageEurRate = $averageRateBuilder->fromArray($eurRates);
+        printf("Average EUR rate: %s%s", $averageEurRate->getRate(), $eol);
     }
 }
